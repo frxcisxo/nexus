@@ -1,11 +1,14 @@
 {
   "name": "@frxncisxo/nexus",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Distributed impact analysis MCP. Analyzes code changes, propagates dependencies, generates docs and detects technical debt.",
   "type": "module",
   "main": "./dist/index.js",
   "bin": {
     "nexus": "./dist/cli.js"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "files": [
     "dist",
