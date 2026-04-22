@@ -1,0 +1,46 @@
+{
+  "name": "@frxncisxo/nexus",
+  "version": "0.1.0",
+  "description": "Distributed impact analysis MCP. Analyzes code changes, propagates dependencies, generates docs and detects technical debt.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "bin": {
+    "nexus": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "node --test dist/**/*.test.js",
+    "lint": "eslint src --fix",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "impact-analysis",
+    "code-intelligence",
+    "changelog",
+    "versioning",
+    "dependencies",
+    "technical-debt",
+    "documentation"
+  ],
+  "author": "Francisco Javier",
+  "license": "MIT",
+  "dependencies": {
+    "simple-git": "^3.20.0",
+    "acorn": "^8.11.3",
+    "json5": "^2.2.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.10.6"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
