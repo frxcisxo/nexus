@@ -51,8 +51,8 @@ export class SourceAnalyzer {
         body,
         breaking,
         footers: this.parseFooters(message),
-        date: commit.date,
-        author: commit.author_name,
+        date: new Date(commit.date),
+        author: commit.author_name || 'Unknown',  
       };
     });
   }

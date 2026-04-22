@@ -32,13 +32,13 @@
   "author": "Francisco Javier",
   "license": "MIT",
   "dependencies": {
-    "simple-git": "^3.20.0",
     "acorn": "^8.11.3",
-    "json5": "^2.2.3"
+    "json5": "^2.2.3",
+    "simple-git": "^3.20.0"
   },
   "devDependencies": {
-    "typescript": "^5.3.3",
-    "@types/node": "^20.10.6"
+    "@types/node": "^20.19.39",
+    "typescript": "^5.3.3"
   },
   "engines": {
     "node": ">=18.0.0"

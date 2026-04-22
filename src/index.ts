@@ -6,7 +6,7 @@
 import { SourceAnalyzer } from './core/SourceAnalyzer.js';
 import { ImpactCalculator } from './core/ImpactCalculator.js';
 import { VersionAnalyzer } from './core/VersionAnalyzer.js';
-import { ReleaseNotesGenerator } from './generation/ReleaseNotesGenerator.js';
+import { ReleaseNotesGenerator } from './generation/ReleaseNotesGenerator.js'; 
 import { DebtAnalyzer } from './core/DebtAnalyzer.js';
 import { NexusConfig, ImpactAnalysis, GeneratedReleaseNotes } from './types.js';
 
